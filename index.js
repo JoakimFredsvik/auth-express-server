@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const volleyball = require('volleyball')
 const auth = require('./auth/index.js')
+require('dotenv').config()
 
 // port
 const PORT = 3456 || env.PORT
