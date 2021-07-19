@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
 router.post('/signup', (req, res) => {
     
     database.addUser(req.body)
-    //database.validateUser(req.body)
+    
     
     res.send("signup")
 })
