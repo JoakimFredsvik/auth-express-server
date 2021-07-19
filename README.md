@@ -1,2 +1,3 @@
 # auth-express-server
-Simple auth with node/express
+Simple authentication with node/express
+and jwt
